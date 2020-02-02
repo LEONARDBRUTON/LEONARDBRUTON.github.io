@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The use of Self in Ruby & Initializing instance variables  & Return Values"
-date:       2020-02-02 20:12:30 +0000
+date:       2020-02-02 15:12:31 -0500
 permalink:  the_use_of_self_in_ruby_and_initializing_instance_variables_and_return_values
 ---
 
