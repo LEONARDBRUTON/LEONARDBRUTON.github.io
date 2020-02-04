@@ -44,7 +44,7 @@ Dog.bark  == Dog #=>   true
 **To Explain:**
 
 A method call in Ruby is the sending of a message to a receiver, which is an Object in Ruby.  It means that every piece of code you write "belongs" to some object.  
-So, if your new to coding, start asking yourself “What Object each method belongs to?”  “Is it the Class that owns it?”  Or is Self an instance variable? An instance of the method its being used in.
+So, if your new to coding, start asking yourself “What Object each method belongs to?”  “Is it the Class that owns it?”   An instance of the method its being used in.
 
 Self is a set apart variable in Ruby that points to the object that "owns" the currently executing code.
 This seems straight forward unless your new at it.  But its importiant, so take the time to get it straight.
