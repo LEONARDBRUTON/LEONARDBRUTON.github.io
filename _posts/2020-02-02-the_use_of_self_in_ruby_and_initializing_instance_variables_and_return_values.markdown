@@ -79,23 +79,15 @@ class Child
 end
 ```
 
-**And now we can call new ones like this:**
-```
-aubrey = Child.new #=> #<Child:64564575635657>
-aubrey.gifts #=> nil
-clover = Child.new("Art") (This is creating a new instance of Child and setting her name as the new variable.  She is an instance of a Child)
- 
-clover.gifts #=> "Art”
-
-```
-**Or, **
 **We can use an initialize method, like this:**
 ```
 class Child
-  def initialize(name, gifts)
-    @name = name
-    @gifts = gifts
-  end
+
+      def initialize(name, gifts)
+           @name = name
+           @gifts = gifts
+      end
+	
 end
 ```
 **Now, we can call a new instance like this:**
@@ -147,8 +139,6 @@ end
 
 Cat.play == Cat # => true
 ```
-
-
 
 **Return values
 In Ruby, a method always returns one object.
