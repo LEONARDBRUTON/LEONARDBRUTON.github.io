@@ -27,7 +27,7 @@ d.bark == d #=> true
 
 ```
 
-**Code Below:** Bark is a class method of Dog.  Self points to the class. The class itself owns the method. And Modules work the same as Class methods.
+**Code Below:** Bark is a class method of Dog.  Self points to the class. The class itself owns the method.
 ```
 class Dog
 
