@@ -15,9 +15,9 @@ Self in Ruby gives you access to the current Object.  The method that’s using 
 ```
 class Dog
    
-	 def bark
-	     self
-	 end
+	  def bark
+	    self
+	  end
 end
 
 d = Dog.new
@@ -32,7 +32,7 @@ d.bark == d #=> true
 class Dog
 
      def self.bark
-         self
+        self
      end
 end
 
