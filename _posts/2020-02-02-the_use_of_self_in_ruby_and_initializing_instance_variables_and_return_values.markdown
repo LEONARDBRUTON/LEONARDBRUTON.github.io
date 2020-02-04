@@ -36,10 +36,9 @@ class Dog
 		end
 		
 end
-Dog.bark  == Dog #=>   true    
+Dog.bark  == Dog #=>   true  
 
 ```
-
 
 **To Explain:**
 A method call in Ruby is the sending of a message to a receiver. It means that every piece of code you write is called on some object.
@@ -50,18 +49,18 @@ This seems straight forward unless your new at it.  But its importiant, so take 
 
  Ruby uses self everywhere so its good to get used to telling yourself when it’s an instance of the method or the Class method itself?
 Ruby also lets you show the difference in Class variables by using one or two @ signs like this:
-```
+
 @name         is Instance variables
 @@name     is Class variables
 
 
-```
+
 
 
 **Initializing Instances:**
  
 You can initialize an instance like this, we’re creating an instance of a new child.
-Here were using setter and getter methods to be creating a new instance of the Child class. 
+Here were using setter and getter methods to be creating a new instance of the Child class. `
 ```
 class Child
   def initialize(name)
