@@ -18,9 +18,10 @@ class Dog
 
       def  bark
          self
-      end
+			end
 			
 end
+			
 
 d = Dog.new
 d.bark == d #=> true
@@ -33,9 +34,10 @@ class Dog
 
    def self.bark
 	     self
-		end
-		
+	end
+			 
 end
+
 Dog.bark  == Dog #=>   true  
 
 ```
@@ -50,7 +52,7 @@ This seems straight forward unless your new at it.  But its importiant, so take 
  Ruby uses self everywhere so its good to get used to telling yourself when it’s an instance of the method or the Class method itself?
 Ruby also lets you show the difference in Class variables by using one or two @ signs like this:
 
-@name         is Instance variables
+@name      is Instance variables
 @@name     is Class variables
 
 
