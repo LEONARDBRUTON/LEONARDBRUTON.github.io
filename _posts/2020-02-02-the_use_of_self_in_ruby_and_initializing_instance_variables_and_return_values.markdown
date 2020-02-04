@@ -12,18 +12,17 @@ Before I started this blog, I thought that self was mostly used for the Classes 
 Self in Ruby gives you access to the current Object.  The method that’s using Self in the top of the method name, like this is, calling it on a Class.  So Self is a special variable that Ruby uses to  represent a way to reference a class or and instance of the class without explicitly naming the class or instance, therefore increasing your abstractness of your code allowing it to be cleaner and more flexible. 
 
 **Code below:** Bark belongs to the object i created.(Dog.new).  Bark is an instance method.  So self points to that object.
-
 ```
 class Dog
-
-     def bark
-		     self
-		 end
-			
+   
+	 def bark
+	     self
+	 end
 end
-			
+
 d = Dog.new
 d.bark == d #=> true
+
 
 ```
 
@@ -50,7 +49,7 @@ This seems straight forward unless your new at it.  But its importiant, so take 
  Ruby uses self everywhere so its good to get used to telling yourself when it’s an instance of the method or the Class method itself?
 Ruby also lets you show the difference in Class variables by using one or two @ signs like this:
 ```
-@name         is Instance variables
+@name       is Instance variables
 @@name     is Class variables
 ```
 
