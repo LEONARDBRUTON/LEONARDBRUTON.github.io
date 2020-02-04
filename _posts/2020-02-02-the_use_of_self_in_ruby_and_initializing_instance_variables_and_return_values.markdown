@@ -33,10 +33,9 @@ d.bark == d #=> true
 
 class Dog
 
-   def self.bark
-	     self
-	end
-			 
+     def self.bark
+           self
+     end
 end
 
 Dog.bark  == Dog #=>   true  
