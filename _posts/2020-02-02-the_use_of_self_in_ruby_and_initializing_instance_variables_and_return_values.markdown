@@ -61,7 +61,11 @@ Ruby also lets you show the difference in class variables by using one or two @ 
 **Initializing Instances:**
  
 You can initialize an instance like this, we’re creating an instance of a new child.
-Here were using setter and getter methods to be creating a new instance of the Child class. `
+Here were using setter and getter methods.
+1. The setter method allows you to set the name attribute of the instance of the Child class that you would create by calling Child.new 
+2. The getter method allows you to be able to read the value of that name that is stored in the instance variable @name
+
+
 ```
 class Child
   def initialize(name)
