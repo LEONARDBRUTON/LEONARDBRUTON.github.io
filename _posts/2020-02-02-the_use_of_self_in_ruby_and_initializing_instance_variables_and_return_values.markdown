@@ -46,7 +46,7 @@ So, if you're new to coding, start asking yourself “What am I calling this met
 Self is a set apart variable in Ruby that points to the object that "owns" the currently executing code.
 This seems straight forward unless your new at it.  But its importiant, so take the time to get it straight.
 
- Ruby uses self everywhere so its good to get used to telling yourself when it’s an instance of the class or the class  itself?
+Its good to get used to asking yourself when it’s an instance of the class or the class  itself?
 Ruby also lets you show the difference in class variables by using one or two @ signs like this:
 ```
 @name      is Instance variables
