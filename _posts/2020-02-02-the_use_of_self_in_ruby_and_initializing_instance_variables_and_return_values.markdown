@@ -9,7 +9,7 @@ permalink:  the_use_of_self_in_ruby_and_initializing_instance_variables_and_retu
 Before I started this blog, I thought that self was mostly used for the Classes and Modules.   See I was more focased on Class methods.  Now I see there are alot of both.  And its importiant to be clear on both.    Let’s start at the beginning though….
 
 **What is Self?**
-Self in Ruby gives you access to the current Object.  The objec that’s using Self in the top of the name, like this is, calling it on a Class.  So Self is a special variable that Ruby uses to  represent a way to reference a class or and instance of the class without explicitly naming the class or instance, therefore increasing your abstractness of your code allowing it to be cleaner and more flexible. 
+Self in Ruby gives you access to the current Object.   So Self is a special variable that Ruby uses to  represent a way to reference a class or and instance of the class without explicitly naming the class or instance, therefore increasing your abstractness of your code allowing it to be cleaner and more flexible. 
 
 **Code below:** Bark belongs to the object i created.(Dog.new).  Bark is an instance method.  So self points to that object.
 ```
@@ -41,15 +41,15 @@ Dog.bark  == Dog #=>   true
 
 **To Explain:**
 A method call in Ruby is the sending of a message to a receiver. It means that every piece of code you write is called on some object.
-So, if you're new to coding, start asking yourself “What am I calling this method on?". "Am I calling it on the entire class or an instance of the class?"
+So, if you're new to coding, start asking yourself “What am I calling this method on?". "Am I calling it on the entire object or an instance of the object?"
 
 Self is a set apart variable in Ruby that points to the object that "owns" the currently executing code.
 This seems straight forward unless your new at it.  But its importiant, so take the time to get it straight.
 
- Ruby uses self everywhere so its good to get used to telling yourself when it’s an instance of the method or the Class method itself?
-Ruby also lets you show the difference in Class variables by using one or two @ signs like this:
+ Ruby uses self everywhere so its good to get used to telling yourself when it’s an instance of the class or the class  itself?
+Ruby also lets you show the difference in class variables by using one or two @ signs like this:
 ```
-@name       is Instance variables
+@name      is Instance variables
 @@name     is Class variables
 ```
 
@@ -101,7 +101,7 @@ aubrey.name #=> "Aubrey"
 
 ```
 **Instance variables**
-They always refer to the invocation object. They are always visible in all methods of the class. They always refer to the i object being invoked. 
+ They always refer to the i object being invoked. 
 
 It may seem easy when reading about it, but in practicing it, it gets confusing at first.  It is important to know and get used to using the proper one at the proper time because of scope.   Since the names of some variables are common like:  
 name, age, date, place, time, event   etc.…  If there used in their proper place the scopes won’t overlap.  If a programmer is years later, updating your code it should save problems and visa versa if your updating a programmer’s code it should be easier and cleaner. Scope is what it’s all about...
