@@ -6,7 +6,7 @@ permalink:  the_use_of_self_in_ruby_and_initializing_instance_variables_and_retu
 ---
 
 
- Let’s start at the beginning though….
+ Let’s start at the beginning….
 
 **What is Self?**
 Self in Ruby gives you access to the current Object.   So Self is a special variable that Ruby uses to  represent a way to reference a class or and instance of the class without explicitly naming the class or instance, therefore increasing your abstractness of your code allowing it to be cleaner and more flexible. 
